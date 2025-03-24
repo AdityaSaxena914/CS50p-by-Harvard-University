@@ -1,5 +1,6 @@
 name = input("What's your name? ")
 
+#Using match case instead of if else
 match name:
     case "Harry" | "Hermoine" | "Ron":
         print("Gryffindor")
